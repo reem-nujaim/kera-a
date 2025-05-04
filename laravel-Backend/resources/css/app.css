@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+[x-cloak] { display: none !important; }
+
+.link{
+    @apply  text-sky_blue flex px-5 py-3 hover:bg-sky_blue hover:bg-opacity-25 cursor-pointer transition ease-out duration-300;
+}
+.card{
+    @apply grid justify-center text-primary bg-beige shadow-md shadow-sky_blue
+    m-4 border-2 border-secondary rounded-xl text-center p-3 hover:text-secondary;
+}
